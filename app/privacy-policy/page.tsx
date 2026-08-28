@@ -121,9 +121,9 @@ for the privacy practices of those external services.
             If you have any questions about this Privacy Policy, please contact us:
           </p>
           <h2 className="leading-8 text-lg">
-            Email: support@pryzma.com
+            Email: support@pryzma.in
             <br />
-            Website: www.pryzma.com
+            Website: www.pryzma.in
           </h2>
         </section>
       </div>

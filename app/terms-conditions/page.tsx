@@ -118,9 +118,9 @@ export default function TermsAndConditions() {
             If you have any questions about these Terms & Conditions, please contact us:
           </p>
           <h2 className="leading-8 text-lg">
-            Email: support@pryzma.com
+            Email: support@pryzma.in
             <br />
-            Website: www.pryzma.com
+            Website: www.pryzma.in
           </h2>
         </section>
       

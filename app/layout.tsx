@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Pryzma",
   description: "Customisable Loyalty Platform for Restaurants",
+  icons: {
+    icon: "/Images/plogo.webp",
+  },
 };
 
 export default function RootLayout({
