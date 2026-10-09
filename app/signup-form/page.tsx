@@ -84,8 +84,8 @@ export default function SignupForm() {
                     </Link>
                 </div> */}
 
-                <div className="relative my-auto w-full rounded-[2rem] bg-transparent lg:max-h-full lg:rounded-[5.5rem] lg:bg-[#FED410] lg:flex lg:items-stretch lg:gap-6 lg:p-6 lg:overflow-hidden">
-                    <div className="hidden lg:flex lg:flex-col lg:justify-center lg:w-[52%] lg:px-6">
+                <div className="relative my-auto w-full rounded-[2rem] bg-transparent lg:max-h-full lg:rounded-[5.5rem] lg:bg-[#FED410] lg:flex lg:items-stretch lg:gap-10 lg:px-16 lg:py-8 lg:overflow-hidden">
+                    <div className="hidden lg:flex lg:flex-1 lg:flex-col lg:justify-center">
                         <h1 className="text-3xl xl:text-5xl font-black text-black leading-tight">
                             Powering Loyalty.
                         </h1>
@@ -100,7 +100,7 @@ export default function SignupForm() {
                         </p>
                     </div>
 
-                    <div className="lg:flex-1 lg:flex lg:items-stretch lg:max-w-[440px]">
+                    <div className="lg:flex lg:items-stretch lg:w-[440px] lg:shrink-0">
                         <div className="relative w-full rounded-[2rem] bg-white p-5 shadow-lg md:p-7 lg:flex lg:w-full lg:flex-col lg:justify-center lg:p-6 lg:shadow-none">
                             <div className="flex items-start justify-between gap-3">
                                 <div>
