@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import LegalHeader from "@/components/LegalHeader";
 
 export default function PrivacyLayout({
   children,
@@ -7,9 +7,7 @@ export default function PrivacyLayout({
 }) {
   return (
     <>
-      <div className="sticky top-0 z-50">
-        <Navbar />
-      </div>
+      <LegalHeader title="Privacy Policy" />
 
       {children}
     </>

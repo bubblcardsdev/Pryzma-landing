@@ -1,6 +1,6 @@
-// app/terms-and-conditions/layout.tsx
+// app/terms-conditions/layout.tsx
 
-import Navbar from "@/components/Navbar";
+import LegalHeader from "@/components/LegalHeader";
 
 export default function TermsLayout({
   children,
@@ -9,9 +9,7 @@ export default function TermsLayout({
 }) {
   return (
     <>
-      <div className="sticky top-0 z-50">
-        <Navbar />
-      </div>
+      <LegalHeader title="Terms & Conditions" />
 
       {children}
     </>

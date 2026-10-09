@@ -7,7 +7,8 @@ import { useRouter,usePathname } from "next/navigation";
 
 export default function Navbar() {
     const router = useRouter();
-    const pathname = usePathname();
+    // trailingSlash is enabled, so normalize "/about/" -> "/about"
+    const pathname = usePathname().replace(/(.)\/$/, "$1");
   return (
     
 <nav className="w-full bg-white py-3 md:py-4">

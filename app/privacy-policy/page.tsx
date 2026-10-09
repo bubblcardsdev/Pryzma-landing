@@ -1,20 +1,8 @@
-import Link from "next/link";
-
 export default function PrivacyPolicy() {
   return (
     <>
          <div className="bg-[#FF4D6D] min-h-screen">
-      <div className="max-w-7xl mx-auto px-8 py-14 text-white">
-        <Link
-          href="/"
-          className="mb-4 inline-block rounded-lg border border-white/40 px-3 py-1.5 text-sm hover:bg-white/10 transition"
-        >
-          ← Back
-        </Link>
-
-        <h2 className="text-2xl font-bold mb-8">
-          Privacy Policy
-        </h2>
+      <div className="max-w-7xl mx-auto px-8 pt-6 pb-14 text-white">
 
         <p className="mb-10 text-lg leading-8">
          Pryzma values your privacy. This Privacy Policy explains how we collect, use, and protect your

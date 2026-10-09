@@ -9,7 +9,8 @@ export default function LayoutWrapper({
 }: {
   children: React.ReactNode;
 }) {
-  const pathname = usePathname();
+  // trailingSlash is enabled, so normalize "/about/" -> "/about"
+  const pathname = usePathname().replace(/(.)\/$/, "$1");
 
   const hideLayoutPages = [
     "/terms-conditions",
@@ -28,6 +29,7 @@ export default function LayoutWrapper({
     return (
       <div className="h-[100dvh] overflow-y-auto overflow-x-hidden">
         {children}
+        <Footer light />
       </div>
     );
   }
